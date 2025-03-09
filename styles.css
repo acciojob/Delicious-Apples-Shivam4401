@@ -1,1 +1,127 @@
-/* your code here */
+.product{
+	position:relative;
+	top:170px;
+}
+.product__photo{
+	position:relative;
+}
+.photo-container{
+	/* width:40%; */
+	position:absolute;
+    top:36px;
+	left:180px;
+	z-index:1;
+
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	padding:12px;
+}
+.photo-main img{
+	width:155px;
+	position:relative;
+	right:30px;
+	bottom:10px;
+	padding:15px 0;
+}
+.photo-album ul{
+	display:flex;
+	list-style:none;
+	justify-content:end;
+	
+	background-color:white;
+	padding:6px ;
+	margin-top:0px;
+	box-shadow:0px 1px 5px rgba(0,0,0,0.3)
+}
+.photo-album ul li img{
+	width:25px;
+	border:1px solid lightgray;
+	border-radius:2px;
+	padding:2px;
+	margin:1px;
+}
+.product{
+	display:flex;
+	justify-content:space-between;
+}
+.product__info{
+	width:300px;
+	height:340px;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	align-items:end;
+	position:absolute;
+	right:170px;
+	padding-right:85px;
+}
+.title{
+	position:relative;
+	right:75px;
+}
+.title h1{
+	margin-top:50px;
+	font-size:12px;
+	margin-bottom:0px;
+}
+.title span{
+  font-size:8px;
+  color:gray;
+}
+.price{
+	color:red;
+	position:relative;
+	right:108px;
+	margin:10px 0;
+	font-size:10px;
+}
+.price span{
+	font-size:20px
+}
+.variant{
+	position:relative;
+	right:25px;
+}
+.variant h3{
+	color:darkgray;
+	font-size:10px;
+}
+.variant ul{
+	display:flex;
+	gap:5px;
+	list-style:none;
+	justify-content:flex-start;
+}
+.variant img{
+	width:20px;
+}
+.description{
+	position:relative;
+	left:65px;
+	bottom:20px;
+	font-size:11px;
+	margin-top:0px;
+}
+.description h3{
+	color:darkgray;
+}
+button{
+	background-color:red;
+	color:white;
+	font-size:8px;
+	padding:6px 12px;
+	border:none;
+	border-radius:4px;
+	position:relative;
+	right:80px;
+	bottom:20px;
+	box-shadow:1px 1px 1px gray;
+}
+
+
+
+
+
+
